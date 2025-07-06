@@ -1,18 +1,20 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "server.js",
-  "main": "server.js",
+  "description": "Advanced backend in javaScript",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "Ashish Jangid",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
   "keywords": [
     "javaScript",
     "backend",
